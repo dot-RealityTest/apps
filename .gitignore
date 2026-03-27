@@ -1,23 +1,21 @@
 # Dependencies
 node_modules/
-.npm
 .pnpm-store/
 
 # Build outputs
 dist/
-release/
-target/
 build/
+release/
 *.dmg
 *.app
 *.zip
+.build/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
@@ -34,13 +32,14 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Swift
-.build/
-Packages/
-*.xcodeproj/
-*.xcworkspace/
-DerivedData/
+# Cache
+.cache/
+.npm/
+*.tsbuildinfo
 
-# Tauri
-src-tauri/target/
-src-tauri/WixTools/
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
