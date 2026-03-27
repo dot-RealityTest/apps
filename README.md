@@ -4,7 +4,7 @@ Native macOS applications built with love and AI.
 
 ## Apps
 
-### [RESQ](./RESQ)
+### [RESQ](./RESQ) ✅ Notarized
 **Rescue messy text into clean Markdown.**
 
 - Local-first Markdown converter
@@ -16,7 +16,7 @@ Native macOS applications built with love and AI.
 
 ---
 
-### [Focus](./focus)
+### [Focus](./focus) ✅ Notarized
 **Glass tasks. Elegant daily to-do.**
 
 - Glassmorphism design
@@ -28,7 +28,7 @@ Native macOS applications built with love and AI.
 
 ---
 
-### [FolderWardrobe](./folderwardrobe)
+### [FolderWardrobe](./folderwardrobe) ✅ Notarized
 **Dress up your folders.**
 
 - Icon collection with Apple HIG rounded crop
@@ -40,7 +40,7 @@ Native macOS applications built with love and AI.
 
 ---
 
-### [mochi](./mochi)
+### [mochi](./mochi) ✅ Notarized
 **Complete tasks, watch your mochi grow.**
 
 - Simple todo list in your menu bar
@@ -49,6 +49,43 @@ Native macOS applications built with love and AI.
 - Notarized for macOS
 
 [Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/Mochi's%20Daily%20Quest-1.0.0-arm64.dmg) | [Landing Page](https://akakika.com/mochi/)
+
+---
+
+### [ClipboardSanitizer](./ClipboardSanitizer) ✅ Notarized
+**Clean clipboard tracking and formatting.**
+
+- Clipboard history management
+- Format sanitization
+- Quick access from menu bar
+
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/ClipboardSanitizer.dmg)
+
+---
+
+### [IconCraft](./iconcraft) ✅ Notarized
+**Generate production-ready icons from a single image.**
+
+- Icon generation for all sizes
+- Apple HIG compliant
+- Export for App Store
+
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/IconCraft.dmg)
+
+---
+
+## Notarized Apps (Ready for App Store)
+
+All apps in this monorepo are notarized and ready for distribution:
+
+| App | Status | DMG | Landing Page |
+|-----|--------|-----|--------------|
+| RESQ | ✅ Notarized | `RESQ-0.0.0-arm64.dmg` | akakika.com/resq/ |
+| Focus | ✅ Notarized | `Focus-Notarized.dmg` | focus.akakika.com |
+| FolderWardrobe | ✅ Notarized | `folderwardrobe.dmg` | akakika.com/folderwardrobe/ |
+| mochi | ✅ Notarized | `Mochi's Daily Quest-1.0.0-arm64.dmg` | akakika.com/mochi/ |
+| ClipboardSanitizer | ✅ Notarized | `ClipboardSanitizer.dmg` | — |
+| IconCraft | ✅ Notarized | `IconCraft.dmg` | — |
 
 ---
 
