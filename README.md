@@ -12,7 +12,7 @@ Native macOS applications built with love and AI.
 - Multiple visual themes
 - Notarized for macOS
 
-[Download](https://github.com/dot-RealityTest/apps/releases) | [Landing Page](https://akakika.com/resq/)
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/RESQ-0.0.0-arm64.dmg) | [Landing Page](https://akakika.com/resq/)
 
 ---
 
@@ -24,7 +24,7 @@ Native macOS applications built with love and AI.
 - Native macOS with Tauri
 - Notarized for macOS
 
-[Download](https://github.com/dot-RealityTest/apps/releases) | [Landing Page](https://focus.akakika.com/)
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/Focus-Notarized.dmg) | [Landing Page](https://focus.akakika.com/)
 
 ---
 
@@ -36,19 +36,20 @@ Native macOS applications built with love and AI.
 - Folder color customization
 - Revert to original anytime
 
-[Download](https://github.com/dot-RealityTest/apps/releases) | [Landing Page](https://akakika.com/folderwardrobe/)
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/folderwardrobe.dmg) | [Landing Page](https://akakika.com/folderwardrobe/)
 
 ---
 
 ### [mochi](./mochi)
-**PICO-8 style game dev in menu bar.**
+**PICO-8 style game dev in your menu bar.**
 
-- Retro game creation interface
-- Live code editing
-- Instant preview
+- Live code editing with instant preview
+- Kawaii companion that grows with you
+- PICO-8 color palette and pixel art
+- Evolution system: egg → baby → teen → elder
 - Notarized for macOS
 
-[Download](https://github.com/dot-RealityTest/apps/releases)
+[Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/Mochi's%20Daily%20Quest-1.0.0-arm64.dmg) | [Landing Page](https://akakika.com/mochi/)
 
 ---
 
@@ -58,7 +59,7 @@ Built by [Kika](https://akakika.com) — former touring DJ, now building macOS a
 
 All apps are:
 - **Free** — no cost, no tracking
-- **Native** — Swift, SwiftUI, Tauri, or SwiftData
+- **Native** — Swift, SwiftUI, Tauri, or Electron
 - **Notarized** — safe to install on macOS
 
 ## Development
@@ -75,8 +76,8 @@ cd focus && npm install && npm run tauri dev
 # FolderWardrobe (Swift)
 cd folderwardrobe && swift build && swift run
 
-# mochi (Tauri)
-cd mochi && npm install && npm run tauri dev
+# mochi (Electron)
+cd mochi && npm install && npm start
 ```
 
 ## License
