@@ -65,8 +65,13 @@ npm run build:dmg
 
 ## License
 
-MIT License
+**Free to use. No restrictions.**
+
+- Download, modify, share — no attribution required
+- Use for personal or commercial projects
+- No warranty, no liability
+- Just enjoy building things
 
 ---
 
-Built with ❤️ and curiosity by [Kika](https://akakika.com)
+Built with curiosity by [Kika](https://akakika.com)

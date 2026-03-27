@@ -81,8 +81,13 @@ cd mochi && npm install && npm start
 
 ## License
 
-MIT License — use freely, modify openly.
+**Free to use. No restrictions.**
+
+- Download, modify, share — no attribution required
+- Use for personal or commercial projects
+- No warranty, no liability
+- Just enjoy building things
 
 ---
 
-*Built with AI and curiosity.* 🐾
+*Built with curiosity.* 🐾
