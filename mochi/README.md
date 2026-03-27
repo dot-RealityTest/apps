@@ -1,24 +1,24 @@
-# mochi — PICO-8 Style Game Dev in Your Menu Bar
+# mochi — Grow Your Companion with Every Task
 
-A kawaii Tamagotchi-style daily to-do app with retro game creation.
+A kawaii Tamagotchi-style daily to-do app. Complete tasks, watch your mochi grow.
 
 ## What It Does
 
-**Live Code Editing**
-- Write PICO-8 style Lua code
-- Instant preview as you type
-- See your game run in real-time
+**Simple Todo List**
+- Add tasks, check them off
+- Clean, minimal interface
+- Lives in your menu bar
 
 **Kawaii Companion**
-- Your mochi character lives in the menu bar
-- Grows from egg → baby → teen → elder as you code
-- Reacts to your progress and milestones
+- Your mochi character grows with every completed task
+- Starts as an egg → evolves through baby → teen → elder
+- Reacts to your progress
 
-**Retro Aesthetic**
-- PICO-8 color palette
-- Pixel art sprites
-- Chiptune sound effects
-- Authentic 8-bit feel
+**Evolution System**
+- Egg: Just starting your journey
+- Baby: Learning to check off tasks
+- Teen: Building habits with confidence
+- Elder: Master of your daily routine
 
 **Notarized for macOS**
 - Safe to install
@@ -37,11 +37,11 @@ A kawaii Tamagotchi-style daily to-do app with retro game creation.
 
 ## Features
 
-- **Evolution System**: Your mochi grows with your coding journey
-- **PICO-8 Style**: Lua-based game creation with instant preview
-- **Menu Bar App**: Lives in your menu bar, always accessible
-- **Live Preview**: See your game run as you code
-- **Retro Vibes**: Authentic 8-bit aesthetic with kawaii characters
+- **Todo List**: Add tasks, complete them, watch your mochi evolve
+- **Menu Bar App**: Always accessible, stays out of your way
+- **Evolution System**: Your mochi grows as you build habits
+- **Kawaii Design**: Cute characters, pastel colors, retro pixel art
+- **Notarized**: Safe to install on macOS
 
 ## Development
 
@@ -60,8 +60,8 @@ npm run build:dmg
 
 - Electron 41
 - Native macOS menu bar integration
-- Lua interpreter for PICO-8 style code
-- Custom sprite renderer
+- Evolution state machine
+- Kawaii sprite animations
 
 ## License
 

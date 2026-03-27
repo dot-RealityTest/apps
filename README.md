@@ -41,12 +41,11 @@ Native macOS applications built with love and AI.
 ---
 
 ### [mochi](./mochi)
-**PICO-8 style game dev in your menu bar.**
+**Complete tasks, watch your mochi grow.**
 
-- Live code editing with instant preview
-- Kawaii companion that grows with you
-- PICO-8 color palette and pixel art
-- Evolution system: egg → baby → teen → elder
+- Simple todo list in your menu bar
+- Kawaii companion evolves with every completed task
+- Egg → Baby → Teen → Elder progression
 - Notarized for macOS
 
 [Download](https://github.com/dot-RealityTest/apps/releases/download/v0.1.0/Mochi's%20Daily%20Quest-1.0.0-arm64.dmg) | [Landing Page](https://akakika.com/mochi/)
