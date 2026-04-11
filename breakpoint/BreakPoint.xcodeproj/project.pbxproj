@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0012BD0C1731562ED9123782 /* BreakPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A749C7453ECD0D92F446AD2 /* BreakPointTests.swift */; };
+		1C7C6CD0B78FBBBDA14D06A8 /* PropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38CFEDF35FE8F4FEF28576E /* PropertiesView.swift */; };
+		29CDE9C09185F5A3D864383E /* BreakPointApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6469F990690DD88AA22A25 /* BreakPointApp.swift */; };
+		418C9D1083391945412A1504 /* OllamaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA5B5E845FAE103013C5F6 /* OllamaService.swift */; };
+		51C0A00151C0A00151C0A001 /* AnimatedGIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C0A00251C0A00251C0A002 /* AnimatedGIFView.swift */; };
+		5899C2354E39DD024AED9F63 /* SnapshotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8413FBED1E145DFF66CBC3C5 /* SnapshotManager.swift */; };
+		6987354391D98A6A127289C7 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF044EE2F12F035A6D1940 /* AppSettings.swift */; };
+		6F1823058AB67F383CDA9B3F /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74148F37B6B52B4CB7589685 /* PopoverView.swift */; };
+		87BE0B386B10FC0B09A8BCCC /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D0B180E682ACF8C1C61581 /* MenuBarController.swift */; };
+		934CA87DFD53F5134A6096F6 /* ContextCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3C183DABF2CFF7411F347 /* ContextCapture.swift */; };
+		AABB333333333333AABB3333 /* DoomsMomentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4444444444444444444444 /* DoomsMomentService.swift */; };
+		AABB999999999999AABB9999 /* PiecesOSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACCCCCCCCCCCCCCAACCCCCC /* PiecesOSService.swift */; };
+		BBDD222222222222BBDD2222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDD111111111111BBDD1111 /* Assets.xcassets */; };
+		51C0A00351C0A00351C0A003 /* kawaii_bomb_bounce.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51C0A00451C0A00451C0A004 /* kawaii_bomb_bounce.gif */; };
+		51C0A00551C0A00551C0A005 /* kawaii_bomb_float.gif in Resources */ = {isa = PBXBuildFile; fileRef = 51C0A00651C0A00651C0A006 /* kawaii_bomb_float.gif */; };
+		CCEE111111111111CCEE1111 /* AppleNotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE222222222222CCEE2222 /* AppleNotesService.swift */; };
+		DDA9A4488B00556D1F7EB896 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60309BA318F1855674B98AB1 /* Models.swift */; };
+		LKG1111111111111111111111 /* LocalKnowledgeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = LKG2222222222222222222222 /* LocalKnowledgeGraph.swift */; };
+		LKG3333333333333333333333 /* KnowledgeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = LKG4444444444444444444444 /* KnowledgeNode.swift */; };
+		LKG7777777777777777777777 /* ProjectExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = LKG8888888888888888888888 /* ProjectExtractor.swift */; };
+		LKG9999999999999999999999 /* ConceptExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = LKG0000000000000000000000 /* ConceptExtractor.swift */; };
+		LKGAAAAAAAAAAAAAAAAAAAAAAA /* MemoryExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = LKGBBBBBBBBBBBBBBBBBBBBBBB /* MemoryExtractor.swift */; };
+		NOT1111111111111111111111 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = NOT2222222222222222222222 /* NotificationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EAEF4163AA3B4BB76F35778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094ADF97313509052D3FC782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF79649D601763E459C53B0A;
+			remoteInfo = BreakPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D0B180E682ACF8C1C61581 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		08F5D18B3D00A22EB6454F67 /* BreakPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B91155241EB848374E3EC3 /* BreakPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF044EE2F12F035A6D1940 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		4EC6F8E0C16C4D3E9AA0D201 /* BreakPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BreakPoint.entitlements; sourceTree = "<group>"; };
+		51C0A00251C0A00251C0A002 /* AnimatedGIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGIFView.swift; sourceTree = "<group>"; };
+		51C0A00451C0A00451C0A004 /* kawaii_bomb_bounce.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kawaii_bomb_bounce.gif; sourceTree = "<group>"; };
+		51C0A00651C0A00651C0A006 /* kawaii_bomb_float.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kawaii_bomb_float.gif; sourceTree = "<group>"; };
+		60309BA318F1855674B98AB1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		74148F37B6B52B4CB7589685 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		8413FBED1E145DFF66CBC3C5 /* SnapshotManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotManager.swift; sourceTree = "<group>"; };
+		9A749C7453ECD0D92F446AD2 /* BreakPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPointTests.swift; sourceTree = "<group>"; };
+		AA4444444444444444444444 /* DoomsMomentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoomsMomentService.swift; sourceTree = "<group>"; };
+		AACCCCCCCCCCCCCCAACCCCCC /* PiecesOSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiecesOSService.swift; sourceTree = "<group>"; };
+		ABEA5B5E845FAE103013C5F6 /* OllamaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllamaService.swift; sourceTree = "<group>"; };
+		B38CFEDF35FE8F4FEF28576E /* PropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesView.swift; sourceTree = "<group>"; };
+		B7E3C183DABF2CFF7411F347 /* ContextCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextCapture.swift; sourceTree = "<group>"; };
+		BBDD111111111111BBDD1111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCEE222222222222CCEE2222 /* AppleNotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleNotesService.swift; sourceTree = "<group>"; };
+		D1359E302F61FF2F00B5B138 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D1359E312F61FF5300B5B138 /* ollama.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ollama.swift; sourceTree = "<group>"; };
+		D1359E322F61FFEA00B5B138 /* memor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memor.swift; sourceTree = "<group>"; };
+		DF6469F990690DD88AA22A25 /* BreakPointApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakPointApp.swift; sourceTree = "<group>"; };
+		LKG0000000000000000000000 /* ConceptExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptExtractor.swift; sourceTree = "<group>"; };
+		LKG2222222222222222222222 /* LocalKnowledgeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalKnowledgeGraph.swift; sourceTree = "<group>"; };
+		LKG4444444444444444444444 /* KnowledgeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowledgeNode.swift; sourceTree = "<group>"; };
+		LKG8888888888888888888888 /* ProjectExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectExtractor.swift; sourceTree = "<group>"; };
+		LKGBBBBBBBBBBBBBBBBBBBBBBB /* MemoryExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryExtractor.swift; sourceTree = "<group>"; };
+		NOT2222222222222222222222 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA7777777777777777777777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228DDC55A41F07F4526E34D1 /* BreakPoint */ = {
+			isa = PBXGroup;
+			children = (
+				CCEE222222222222CCEE2222 /* AppleNotesService.swift */,
+				51C0A00251C0A00251C0A002 /* AnimatedGIFView.swift */,
+				BBDD111111111111BBDD1111 /* Assets.xcassets */,
+				4ACF044EE2F12F035A6D1940 /* AppSettings.swift */,
+				4EC6F8E0C16C4D3E9AA0D201 /* BreakPoint.entitlements */,
+				DF6469F990690DD88AA22A25 /* BreakPointApp.swift */,
+				B7E3C183DABF2CFF7411F347 /* ContextCapture.swift */,
+				AA4444444444444444444444 /* DoomsMomentService.swift */,
+				05D0B180E682ACF8C1C61581 /* MenuBarController.swift */,
+				60309BA318F1855674B98AB1 /* Models.swift */,
+				ABEA5B5E845FAE103013C5F6 /* OllamaService.swift */,
+				AACCCCCCCCCCCCCCAACCCCCC /* PiecesOSService.swift */,
+				74148F37B6B52B4CB7589685 /* PopoverView.swift */,
+				B38CFEDF35FE8F4FEF28576E /* PropertiesView.swift */,
+				51C0A00451C0A00451C0A004 /* kawaii_bomb_bounce.gif */,
+				51C0A00651C0A00651C0A006 /* kawaii_bomb_float.gif */,
+				8413FBED1E145DFF66CBC3C5 /* SnapshotManager.swift */,
+				LKG2222222222222222222222 /* LocalKnowledgeGraph.swift */,
+				LKG4444444444444444444444 /* KnowledgeNode.swift */,
+				LKG8888888888888888888888 /* ProjectExtractor.swift */,
+				LKG0000000000000000000000 /* ConceptExtractor.swift */,
+				LKGBBBBBBBBBBBBBBBBBBBBBBB /* MemoryExtractor.swift */,
+				NOT2222222222222222222222 /* NotificationService.swift */,
+			);
+			path = BreakPoint;
+			sourceTree = "<group>";
+		};
+		703DBC5212A447231CAADB8B /* BreakPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A749C7453ECD0D92F446AD2 /* BreakPointTests.swift */,
+			);
+			path = BreakPointTests;
+			sourceTree = "<group>";
+		};
+		A1F9E1F69336104FFC17E248 = {
+			isa = PBXGroup;
+			children = (
+				228DDC55A41F07F4526E34D1 /* BreakPoint */,
+				703DBC5212A447231CAADB8B /* BreakPointTests */,
+				D0FFCF67E39EE80A7B3A2A88 /* Products */,
+				AA8888888888888888888888 /* Frameworks */,
+				D1359E302F61FF2F00B5B138 /* File.swift */,
+				D1359E312F61FF5300B5B138 /* ollama.swift */,
+				D1359E322F61FFEA00B5B138 /* memor.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8888888888888888888888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0FFCF67E39EE80A7B3A2A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B91155241EB848374E3EC3 /* BreakPoint.app */,
+				08F5D18B3D00A22EB6454F67 /* BreakPointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCD418A76560B9875321924 /* BreakPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9657EBA8F36BCCDACE6DFDD /* Build configuration list for PBXNativeTarget "BreakPointTests" */;
+			buildPhases = (
+				8E0E02996A0D63DE9B613871 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F5988F61C106C429F1FA4CC /* PBXTargetDependency */,
+			);
+			name = BreakPointTests;
+			packageProductDependencies = (
+			);
+			productName = BreakPointTests;
+			productReference = 08F5D18B3D00A22EB6454F67 /* BreakPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF79649D601763E459C53B0A /* BreakPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F338B199107FF04322A3EFA4 /* Build configuration list for PBXNativeTarget "BreakPoint" */;
+			buildPhases = (
+				DF208E507F9BBD83C280D66B /* Sources */,
+				AA7777777777777777777777 /* Frameworks */,
+				BBDD333333333333BBDD3333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakPoint;
+			packageProductDependencies = (
+			);
+			productName = BreakPoint;
+			productReference = 37B91155241EB848374E3EC3 /* BreakPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094ADF97313509052D3FC782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					BCCD418A76560B9875321924 = {
+						ProvisioningStyle = Automatic;
+					};
+					CF79649D601763E459C53B0A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD48EC71619DF5A4D79EA5EF /* Build configuration list for PBXProject "BreakPoint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1F9E1F69336104FFC17E248;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D0FFCF67E39EE80A7B3A2A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF79649D601763E459C53B0A /* BreakPoint */,
+				BCCD418A76560B9875321924 /* BreakPointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDD333333333333BBDD3333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDD222222222222BBDD2222 /* Assets.xcassets in Resources */,
+				51C0A00351C0A00351C0A003 /* kawaii_bomb_bounce.gif in Resources */,
+				51C0A00551C0A00551C0A005 /* kawaii_bomb_float.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E0E02996A0D63DE9B613871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0012BD0C1731562ED9123782 /* BreakPointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF208E507F9BBD83C280D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C0A00151C0A00151C0A001 /* AnimatedGIFView.swift in Sources */,
+				CCEE111111111111CCEE1111 /* AppleNotesService.swift in Sources */,
+				6987354391D98A6A127289C7 /* AppSettings.swift in Sources */,
+				29CDE9C09185F5A3D864383E /* BreakPointApp.swift in Sources */,
+				934CA87DFD53F5134A6096F6 /* ContextCapture.swift in Sources */,
+				AABB333333333333AABB3333 /* DoomsMomentService.swift in Sources */,
+				87BE0B386B10FC0B09A8BCCC /* MenuBarController.swift in Sources */,
+				DDA9A4488B00556D1F7EB896 /* Models.swift in Sources */,
+				418C9D1083391945412A1504 /* OllamaService.swift in Sources */,
+				AABB999999999999AABB9999 /* PiecesOSService.swift in Sources */,
+				6F1823058AB67F383CDA9B3F /* PopoverView.swift in Sources */,
+				1C7C6CD0B78FBBBDA14D06A8 /* PropertiesView.swift in Sources */,
+				5899C2354E39DD024AED9F63 /* SnapshotManager.swift in Sources */,
+				LKG1111111111111111111111 /* LocalKnowledgeGraph.swift in Sources */,
+				LKG3333333333333333333333 /* KnowledgeNode.swift in Sources */,
+				LKG7777777777777777777777 /* ProjectExtractor.swift in Sources */,
+				LKG9999999999999999999999 /* ConceptExtractor.swift in Sources */,
+				LKGAAAAAAAAAAAAAAAAAAAAAAA /* MemoryExtractor.swift in Sources */,
+				NOT1111111111111111111111 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F5988F61C106C429F1FA4CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF79649D601763E459C53B0A /* BreakPoint */;
+			targetProxy = 9EAEF4163AA3B4BB76F35778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38AC4AFDC41B2BB118074C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+			57F97F75D7ED47FC906F9646 /* Debug */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = BreakPoint/BreakPoint.entitlements;
+					CODE_SIGN_STYLE = Automatic;
+					COMBINE_HIDPI_IMAGES = YES;
+					CURRENT_PROJECT_VERSION = 1;
+					DEAD_CODE_STRIPPING = YES;
+					GENERATE_INFOPLIST_FILE = YES;
+					INFOPLIST_KEY_NSAppleEventsUsageDescription = "BreakPoint needs permission to send Apple events to Notes so it can create and organize Doom's Moment exports.";
+					INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kika.BreakPoint;
+				PRODUCT_NAME = BreakPoint;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		7770D563C7C0432A4C339562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+			7DA9E11053EA874C95D4D159 /* Release */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+					ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+					CODE_SIGN_ENTITLEMENTS = BreakPoint/BreakPoint.entitlements;
+					CODE_SIGN_IDENTITY = "Developer ID Application";
+					CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+					CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+					DEVELOPMENT_TEAM = P5RB3W3D58;
+					ENABLE_HARDENED_RUNTIME = YES;
+					GENERATE_INFOPLIST_FILE = YES;
+					INFOPLIST_KEY_NSAppleEventsUsageDescription = "BreakPoint needs permission to send Apple events to Notes so it can create and organize Doom's Moment exports.";
+					INFOPLIST_KEY_LSUIElement = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kika.BreakPoint;
+				PRODUCT_NAME = BreakPoint;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+		D0795A849A2D0E14DF85D789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kika.BreakPointTests;
+				PRODUCT_NAME = BreakPointTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPoint.app/Contents/MacOS/BreakPoint";
+			};
+			name = Debug;
+		};
+		E0EFA712F454482FC91A7369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kika.BreakPointTests;
+				PRODUCT_NAME = BreakPointTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakPoint.app/Contents/MacOS/BreakPoint";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD48EC71619DF5A4D79EA5EF /* Build configuration list for PBXProject "BreakPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7770D563C7C0432A4C339562 /* Debug */,
+				38AC4AFDC41B2BB118074C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9657EBA8F36BCCDACE6DFDD /* Build configuration list for PBXNativeTarget "BreakPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0795A849A2D0E14DF85D789 /* Debug */,
+				E0EFA712F454482FC91A7369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F338B199107FF04322A3EFA4 /* Build configuration list for PBXNativeTarget "BreakPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F97F75D7ED47FC906F9646 /* Debug */,
+				7DA9E11053EA874C95D4D159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094ADF97313509052D3FC782 /* Project object */;
+}
